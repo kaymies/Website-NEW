@@ -12,12 +12,14 @@
 	text-align: right;
 	margin-top: 8pt;
 	font-size: 12pt;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 #title {
 	font-size: 20pt;
-    border-left: thick solid #ff2641;
-  font-family: 'Fjalla One', sans-serif;
+    border-left: thick solid #000000;
+  font-family: 'Roboto', sans-serif;
 }
 
 #main-content {
@@ -27,12 +29,11 @@
 }
 
 a {
-	color: #ff2641;
+	color: #000000;
 	transition: color 0.5s ease;
 }
-
 a:hover, a:active {
-    color: black;
+    color: red;
     text-decoration: none;
 }
 
