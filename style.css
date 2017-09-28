@@ -59,6 +59,11 @@ a:hover, a:active {
   width: 100%;
 }
 
+.art-container {
+  padding: 5pt;
+  height: auto;
+}
+
 .project-container:hover .overlay {
   opacity: .8;
 }
@@ -69,6 +74,10 @@ a:hover, a:active {
   height: 100%;
   overflow: hidden;
   object-fit: cover;
+}
+
+.art-image {
+  height: auto;
 }
 
 .text {
