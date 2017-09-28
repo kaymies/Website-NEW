@@ -1,5 +1,5 @@
 .inner {
-	width: 50%;
+/*	width: 95%;*/
 	padding-bottom: 30pt;
 	padding-top: 30pt;
 }
@@ -17,6 +17,7 @@
 #title {
 	font-size: 20pt;
     border-left: thick solid #ff2641;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 #main-content {
@@ -46,8 +47,8 @@ a:hover, a:active {
   opacity: 0;
   transition: .5s ease;
   background-color: #dcdcdc;
-  border-radius: 25px;
-}
+/*  border-radius: 25px;
+*/}
 
 .project-container {
   position: relative;
