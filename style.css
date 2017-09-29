@@ -95,3 +95,16 @@ a:hover, a:active {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+.body-text {
+  margin-top: 15pt;
+}
+
+.body-title {
+  margin-top: 5pt;
+  margin-bottom: 5pt;
+  padding-left: 5pt;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  border-left: thin solid #ff2641;
+}
