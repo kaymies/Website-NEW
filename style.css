@@ -101,6 +101,7 @@ a:hover, a:active {
 }
 
 .body-title {
+  font-weight: bold;
   margin-top: 5pt;
   margin-bottom: 5pt;
   padding-left: 5pt;
