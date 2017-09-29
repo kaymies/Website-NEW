@@ -113,3 +113,8 @@ a:hover, a:active {
 .body-title-large {
   font-size: 40px;
 }
+
+.margin-vertical-med {
+  margin-top: 50pt;
+  margin-bottom: 50pt;
+}
