@@ -107,5 +107,9 @@ a:hover, a:active {
   padding-left: 5pt;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
-  border-left: thin solid #ff2641;
+  border-left: medium solid #ff2641;
+}
+
+.body-title-large {
+  font-size: 40px;
 }
