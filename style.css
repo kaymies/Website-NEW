@@ -30,14 +30,14 @@
 
 }
 
-/*a {
+a {
 	color: #000000;
 	transition: color 0.5s ease;
 }
 a:hover, a:active {
     color: red;
     text-decoration: none;
-}*/
+}
 
 .overlay {
   position: absolute;
@@ -119,38 +119,6 @@ a:hover, a:active {
   margin-bottom: 50pt;
 }
 
-/* unvisited link */
-a:link {
-    color: red;
-}
-
-/* visited link */
-a:visited {
-    color: red;
-}
-
-/* mouse over link */
-a:hover {
-    color: gray;
-}
-
-/* selected link */
-a:active {
-    color: red;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
+.caption {
+  font-style: italic;
 }
