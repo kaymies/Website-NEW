@@ -200,3 +200,33 @@ a:hover, a:active {
   position:relative;
   top:1px;
 }
+
+.footer {
+  text-align: center; /* Center the footer text */
+  padding: 20px; /* Padding for the footer */
+  background-color: #f8f9fa; /* Optional: Add a background color */
+}
+
+.footer .btn {
+  margin: 5px; /* Space between buttons */
+  display: flex; /* Center icons and text */
+  align-items: center; /* Center icon vertically */
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  flex-wrap: wrap; /* Wrap buttons if they overflow */
+}
+
+.footer-buttons a {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Set icon color */
+  background-color: transparent;
+  border: none;
+}
+
+.footer-buttons a:hover {
+  background-color: transparent; /* Change background color on hover */
+  color: red; /* Change icon color on hover */
+}
