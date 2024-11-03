@@ -230,3 +230,7 @@ a:hover, a:active {
   background-color: transparent; /* Change background color on hover */
   color: red; /* Change icon color on hover */
 }
+
+.footer a:focus, .footer button:focus {
+  outline: none;
+}
