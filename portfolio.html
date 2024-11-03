@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <link rel="icon" href="photos/k.png">
     <title>Kaymie Shiozawa</title>
   </head>
   <body>
-
 
     <div class="container" id="top-bar">
       <div class="inner center-me">
@@ -27,11 +26,28 @@
 
           <div class="col-sm-6" id="site-menu">
             <div class="row text-center">
-        
-              <div class="col-md-3"><a href="index.html">ABOUT</a></div>
-              <div class="col-md-3"><a href="publications.html">PUBLICATIONS</a></div>
-              <div class="col-md-3"><a href="index.html">PORTFOLIO</a></div>
-              <div class="col-md-3"><a href="cv.pdf">CV</a></div>
+              <div class="col-sm-3"><a href="publications.html">RESEARCH</a></div>
+              <div class="col-md-3"><a href="portfolio.html">PORTFOLIO</a></div>
+              <!-- <div class="dropdown">
+                <a href="portfolio.html" class="dropbtn">PORTFOLIO</a>
+                <div class="dropdown-content">
+                  <a href="212.html">2.12</a>
+                  <a href="urop.html">D'ARBELOFF LAB</a>
+                  <a href="dlab.html">D-LAB</a>
+                  <a href="haemonetics.html">HAEMONETICS</a>
+                  <a href="CEA.html">CEA GRENOBLE</a>
+                  <a href="art.html">STUDIO ART</a>
+                  <a href="2007.html">2.007</a>
+                  <a href="http://maslab.mit.edu/2016/wiki/team08">MASLAB</a>
+                  <a href="MakeMIT.html">MAKE MIT</a>
+                </div>
+              </div> -->
+            
+              <!-- </div> -->
+              <div class="col-sm-3"><a href="index.html">ABOUT</a></div>
+              <div class="col-sm-3"><a href="cv.pdf">CV</a></div>
+              
+
 
             </div>
           </div>
@@ -39,6 +55,27 @@
         </div>
       </div>
     </div>
+    <!-- <div class="container" id="top-bar">
+      <div class="inner center-me">
+        <div class="row">
+
+          <div class="col-sm-6" id="title">
+            <a href="index.html">KAYMIE SHIOZAWA</a>
+          </div>
+
+          <div class="col-sm-6" id="site-menu">
+            <div class="row text-center">
+              <div class="col-md-3"><a href="publications.html">RESEARCH</a></div>
+              <div class="col-md-3"><a href="portfolio.html">PORTFOLIO</a></div>
+              <div class="col-md-3"><a href="index.html">ABOUT</a></div>
+              <div class="col-md-3"><a href="cv.pdf">CV</a></div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div> -->
     <div id="main-content">
       <div class="container">
 
@@ -143,7 +180,18 @@
 
       </div>    
     </div>
-      <p class="font_9" style="text-align:center;">© 2024&nbsp;by Kaymie Shiozawa</p>
+    <footer id="footer-container">
+      <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading footer:', error));
+    </script>
+    </footer>
+
+
 
 
 
