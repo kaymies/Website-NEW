@@ -128,8 +128,17 @@
 
       </div>
     </div>
-      <p class="font_9" style="text-align:center;">© 2020&nbsp;by Kaymie Shiozawa</p>
     </div>
+    <footer id="footer-container"></footer>
+
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading footer:', error));
+    </script>
 
 
 
